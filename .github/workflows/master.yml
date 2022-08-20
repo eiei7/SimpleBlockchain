@@ -20,5 +20,7 @@ jobs:
         uses: actions/setup-python@v3
         
       - name: test
-        run: python scr/SimpleChain.py
+        run: |
+          pip install pytest
+          pytest SimpleBlockchain/scr/SimpleChain.py
           
