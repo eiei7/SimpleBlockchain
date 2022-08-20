@@ -20,5 +20,5 @@ jobs:
         uses: actions/setup-python@v3
         
       - name: test
-        run: python SimpleChain.py
+        run: python scr/SimpleChain.py
           
