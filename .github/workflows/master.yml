@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: SimpleBlockchain
+#name: SimpleBlockchain
 
 # Controls when the workflow will run
 on:
@@ -20,7 +20,5 @@ jobs:
         uses: actions/setup-python@v3
         
       - name: test
-        run: |
-          pip install pytest
-          pytest src/SimpleChain.py
+        run: python src/SimpleChain.py
           
